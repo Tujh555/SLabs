@@ -4,7 +4,6 @@ namespace SLabs.Lab2;
 
 public class ComplexNumber
 {
-    private const double E = Math.E;
     private readonly double _degree;
     private readonly double _module;
 
@@ -19,6 +18,11 @@ public class ComplexNumber
         if (_degree == 0)
         {
             return _module.ToString(CultureInfo.CurrentUICulture);
+        }
+
+        if (_module == 0)
+        {
+            return "0";
         }
         
         var degreePrefix = _degree < 0 ? "-" : "";

@@ -5,7 +5,7 @@ namespace SLabs.Lab1;
 
 public static class ProgramMain
 {
-    public static void Main(string[] args)
+    public static void Main2(string[] args)
     {
         var repo = new Repository();
         var lst = repo.GetMaze();

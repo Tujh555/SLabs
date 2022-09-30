@@ -1,7 +1,7 @@
-using SusuLabs.Lab1.Ang.Data;
-using SusuLabs.Lab1.Ang.Domain;
+using SLabs.Lab1.Data;
+using SLabs.Lab1.Domain;
 
-namespace SusuLabs.Lab1.Ang;
+namespace SLabs.Lab1;
 
 public static class ProgramMain
 {

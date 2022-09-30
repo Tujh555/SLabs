@@ -1,6 +1,6 @@
-using SusuLabs.Lab1.Ang.Domain;
+using SLabs.Lab1.Domain;
 
-namespace SusuLabs.Lab1.Ang.Data;
+namespace SLabs.Lab1.Data;
 
 public class Repository
 {

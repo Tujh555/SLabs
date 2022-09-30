@@ -1,4 +1,4 @@
-namespace SusuLabs.Lab1.Ang.Domain;
+namespace SLabs.Lab1.Domain;
 
 public class Stack<T>
 {

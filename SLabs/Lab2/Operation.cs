@@ -2,53 +2,57 @@ namespace SLabs.Lab2;
 
 public class Operation
 {
-    private readonly ComplexNumber _firstNumber;
-    private readonly ComplexNumber _secondNumber;
-    private readonly char _arithmeticOperation;
-    private OperationBuilder Builder => new();
+    public readonly ComplexNumber FirstNumber;
+    public readonly ComplexNumber SecondNumber;
+    public readonly char ArithmeticOperation;
+    public static OperationBuilder Builder => new();
 
     private Operation(ComplexNumber firstNumber, ComplexNumber secondNumber, char arithmeticOperation)
     {
-        _firstNumber = firstNumber;
-        _secondNumber = secondNumber;
-        _arithmeticOperation = arithmeticOperation;
+        FirstNumber = firstNumber;
+        SecondNumber = secondNumber;
+        ArithmeticOperation = arithmeticOperation;
     }
 
-    public ComplexNumber GetResult() => _arithmeticOperation switch
+    public ComplexNumber GetResult() => ArithmeticOperation switch
     {
-        '+' => _firstNumber + _secondNumber,
-        '-' => _firstNumber - _secondNumber,
-        '*' => _firstNumber * _secondNumber,
+        '+' => FirstNumber + SecondNumber,
+        '-' => FirstNumber - SecondNumber,
+        '*' => FirstNumber * SecondNumber,
         _ => new ComplexNumber(0, 0)
     };
 
-    private class OperationBuilder
+    public class OperationBuilder
     {
         private readonly HashSet<char> _validArithmeticOperations = new(new[] { '+', '-', '*' });
         private double? _firstModule, _firstDegree, _secondModule, _secondDegree;
         private char? _arithmeticOperation;
 
-        public void FirstModule(double module)
+        public OperationBuilder FirstModule(double module)
         {
             _firstModule = module;
+            return this;
         }
         
-        public void SecondModule(double module)
+        public OperationBuilder SecondModule(double module)
         {
             _secondModule = module;
+            return this;
         }
         
-        public void FirstDegree(double degree)
+        public OperationBuilder FirstDegree(double degree)
         {
             _firstDegree = degree;
+            return this;
         }
         
-        public void SecondDegree(double degree)
+        public OperationBuilder SecondDegree(double degree)
         {
             _secondDegree = degree;
+            return this;
         }
 
-        public void Operation(char operation)
+        public OperationBuilder Operation(char operation)
         {
             if (!_validArithmeticOperations.Contains(operation))
             {
@@ -56,6 +60,8 @@ public class Operation
             }
 
             _arithmeticOperation = operation;
+
+            return this;
         }
 
         public Operation? Build()

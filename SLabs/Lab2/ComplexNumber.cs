@@ -26,7 +26,7 @@ public class ComplexNumber
         }
         
         var degreePrefix = _degree < 0 ? "-" : "";
-        return $"{_module}^{degreePrefix}i{_degree}";
+        return $"{Math.Round(_module, 2)}^({degreePrefix}i{Math.Round(_degree, 2)})";
     }
 
     private static double GetModule(double real, double imaginary) => Math.Sqrt(real * real + imaginary * imaginary);
@@ -65,6 +65,6 @@ public class ComplexNumber
     }
 
     public static ComplexNumber operator *(ComplexNumber first, ComplexNumber second) => new(
-        first._module * first._module,
+        first._module * second._module,
         first._degree + second._degree);
 }

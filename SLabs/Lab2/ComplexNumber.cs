@@ -6,7 +6,7 @@ public class ComplexNumber
 {
     private readonly double _degree;
     private readonly double _module;
-
+    
     public ComplexNumber(double module, double degree)
     {
         _degree = degree;

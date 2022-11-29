@@ -4,8 +4,8 @@ namespace SLabs.Lab1.Data;
 
 public class Repository
 {
-    private const string _path = "C:/_code/Maze.txt";
-    private Mapper _mapper = new('0');
+    private const string _path = "C:\\_code\\Maze.txt";
+    private Mapper _mapper = new Mapper('0');
 
     public List<List<Square>> GetMaze()
     {

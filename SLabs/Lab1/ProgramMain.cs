@@ -5,16 +5,24 @@ namespace SLabs.Lab1;
 
 public static class ProgramMain
 {
-    public static void Main2(string[] args)
+    public static void Main432(string[] args)
     {
         var repo = new Repository();
         var lst = repo.GetMaze();
-
+     
         Console.WriteLine("Введите через пробел координаты начала ");
-        var start = Console.ReadLine()!.Split(" ").Select(int.Parse).ToArray();
+        var start = Console
+            .ReadLine()
+            !.Split(" ")
+            .Select(int.Parse)
+            .ToArray();
 
         Console.WriteLine("Введите через пробел координаты конца ");
-        var end = Console.ReadLine()!.Split(" ").Select(int.Parse).ToArray();
+        var end = Console
+            .ReadLine()
+            !.Split(" ")
+            .Select(int.Parse)
+            .ToArray();
         
         var runner = MazeRunner.Builder
             .SetFinish(end[0], end[1])

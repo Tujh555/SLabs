@@ -1,0 +1,15 @@
+C:\Users\HP\RiderProjects\SLabs\SLabs\bin\Debug\net6.0\SLabs.exe
+C:\Users\HP\RiderProjects\SLabs\SLabs\bin\Debug\net6.0\SLabs.deps.json
+C:\Users\HP\RiderProjects\SLabs\SLabs\bin\Debug\net6.0\SLabs.runtimeconfig.json
+C:\Users\HP\RiderProjects\SLabs\SLabs\bin\Debug\net6.0\SLabs.dll
+C:\Users\HP\RiderProjects\SLabs\SLabs\bin\Debug\net6.0\ref\SLabs.dll
+C:\Users\HP\RiderProjects\SLabs\SLabs\bin\Debug\net6.0\SLabs.pdb
+C:\Users\HP\RiderProjects\SLabs\SLabs\obj\Debug\net6.0\SLabs.csproj.AssemblyReference.cache
+C:\Users\HP\RiderProjects\SLabs\SLabs\obj\Debug\net6.0\SLabs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\RiderProjects\SLabs\SLabs\obj\Debug\net6.0\SLabs.AssemblyInfoInputs.cache
+C:\Users\HP\RiderProjects\SLabs\SLabs\obj\Debug\net6.0\SLabs.AssemblyInfo.cs
+C:\Users\HP\RiderProjects\SLabs\SLabs\obj\Debug\net6.0\SLabs.csproj.CoreCompileInputs.cache
+C:\Users\HP\RiderProjects\SLabs\SLabs\obj\Debug\net6.0\SLabs.dll
+C:\Users\HP\RiderProjects\SLabs\SLabs\obj\Debug\net6.0\ref\SLabs.dll
+C:\Users\HP\RiderProjects\SLabs\SLabs\obj\Debug\net6.0\SLabs.pdb
+C:\Users\HP\RiderProjects\SLabs\SLabs\obj\Debug\net6.0\SLabs.genruntimeconfig.cache

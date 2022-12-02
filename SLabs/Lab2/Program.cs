@@ -12,7 +12,7 @@ public class Program
 
     private static bool _isInputInProcess = false;
 
-    public static void Main(string[] args)
+    public static void Main1(string[] args)
     {
         while (true)
         {

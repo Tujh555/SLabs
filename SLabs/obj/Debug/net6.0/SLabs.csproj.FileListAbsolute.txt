@@ -13,3 +13,6 @@ C:\Users\HP\RiderProjects\SLabs\SLabs\obj\Debug\net6.0\SLabs.dll
 C:\Users\HP\RiderProjects\SLabs\SLabs\obj\Debug\net6.0\ref\SLabs.dll
 C:\Users\HP\RiderProjects\SLabs\SLabs\obj\Debug\net6.0\SLabs.pdb
 C:\Users\HP\RiderProjects\SLabs\SLabs\obj\Debug\net6.0\SLabs.genruntimeconfig.cache
+C:\Users\HP\RiderProjects\SLabs\SLabs\bin\Debug\net6.0\Json.Net.dll
+C:\Users\HP\RiderProjects\SLabs\SLabs\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\HP\RiderProjects\SLabs\SLabs\obj\Debug\net6.0\SLabs.csproj.CopyComplete

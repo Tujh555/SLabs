@@ -1,0 +1,24 @@
+{
+  "$type": "SLabs.Lab3.Organization, SLabs",
+  "Employees": {
+    "$type": "System.Collections.ObjectModel.ReadOnlyCollection`1[[SLabs.Lab3.Employees.Employee, SLabs]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "SLabs.Lab3.Employees.MonthlyEmployee, SLabs",
+        "MonthlyRate": 20000.0,
+        "Id": 0,
+        "Name": "skfdsf",
+        "DateOfBorn": "2000-09-09T00:00:00",
+        "Appointment": "Монтажер"
+      },
+      {
+        "$type": "SLabs.Lab3.Employees.HourlyEmployee, SLabs",
+        "HourlyRate": 2994.0,
+        "Id": 1,
+        "Name": "kkkkk",
+        "DateOfBorn": "2021-09-09T00:00:00",
+        "Appointment": "Менеджер"
+      }
+    ]
+  }
+}

@@ -28,7 +28,7 @@ public static class Program
     private static bool _isInputInProcess;
     private static int _currId;
 
-    public static void Main(string[] args)
+    public static void Main3(string[] args)
     {
         while (true)
         {
